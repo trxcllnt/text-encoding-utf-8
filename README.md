@@ -1,19 +1,8 @@
 TextEncoderLite
 ==============
 
-This is a lightweight fork of [text-encoding](https://github.com/inexorabletash/text-encoding).
-It's pretty much the same thing, but a bunch of code deleted.
-
-This is a polyfill for the [Encoding Living Standard](http://encoding.spec.whatwg.org/)
-API for the Web, allowing encoding and decoding of textual data to and from Typed Array
-buffers for binary data in JavaScript.
-
-By default it adheres to the spec and does not support *encoding* to non-UTF encodings,
-only *decoding*. It is also implemented to match the specification's algorithms, rather
-than for performance. The intended use is within Web pages, so it has no dependency
-on server frameworks or particular module schemes.
-
-Basic examples and tests are included.
+Extracted from [Feross' Buffer](https://github.com/feross/buffer) as a lightweight Pollyfill
+for TextEncoder.
 
 ### Install ###
 
@@ -43,7 +32,7 @@ Or add it to your `bower.json` dependencies.
 
 ```html
   <!-- Required for non-UTF encodings -->
-  <script src="encoding.js"></script>
+  <script src="bower_components/text-encoder-lite/index.js"></script>
 ```
 
 ### API Overview ###
@@ -53,16 +42,6 @@ Basic Usage
 ```js
   var uint8array = TextEncoder('utf-8').encode(string);
   var string = TextDecoder('utf-8').decode(uint8array);
-```
-
-Streaming Decode
-
-```js
-  var string = "", decoder = TextDecoder(encoding), buffer;
-  while (buffer = next_chunk()) { 
-    string += decoder.decode(buffer, {stream:true});
-  }
-  string += decoder.decode(); // finish the stream
 ```
 
 ### Encodings ###

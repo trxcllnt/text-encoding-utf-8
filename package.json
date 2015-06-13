@@ -1,16 +1,13 @@
 {
   "name": "text-encoder-lite",
-  "author": "Joshua Bell <inexorabletash@gmail.com>",
+  "author": "AJ ONeal <awesome@coolaj86.com>",
   "contributors": [
-    "Rick Eyre <rick.eyre@outlook.com>",
-    "AJ ONeal <awesome@coolaj86.com>"
   ],
-  "version": "0.5.2",
+  "version": "1.0.0",
   "description": "A Lite Polyfill for the Encoding Living Standard's API.",
   "main": "index.js",
   "files": [
-    "index.js",
-    "lib/encoding.js"
+    "index.js"
   ],
   "repository": {
     "type": "git",
