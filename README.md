@@ -40,8 +40,8 @@ Or add it to your `bower.json` dependencies.
 Basic Usage
 
 ```js
-  var uint8array = TextEncoder('utf-8').encode(string);
-  var string = TextDecoder('utf-8').decode(uint8array);
+  var uint8array = TextEncoderLite('utf-8').encode(string);
+  var string = TextDecoderLite('utf-8').decode(uint8array);
 ```
 
 ### Encodings ###
