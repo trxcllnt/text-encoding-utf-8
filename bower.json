@@ -1,12 +1,13 @@
 {
-  "name": "text-encoding",
+  "name": "text-encoder-lite",
   "version": "0.5.2",
-  "homepage": "https://github.com/inexorabletash/text-encoding",
+  "homepage": "https://github.com/coolaj86/text-encoder-lite",
   "authors": [
-    "Joshua Bell <inexorabletash@gmail.com>"
+    "Joshua Bell <inexorabletash@gmail.com>",
+    "AJ ONeal <awesome@coolaj86.com>"
   ],
   "description": "Polyfill for the Encoding Living Standard's API",
-  "main": [ "lib/encoding.js", "lib/encoding-indexes.js" ],
+  "main": [ "lib/encoding.js" ],
   "keywords": [
     "decoding",
     "encoding",

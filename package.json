@@ -1,28 +1,32 @@
 {
-  "name": "text-encoding",
+  "name": "text-encoder-lite",
   "author": "Joshua Bell <inexorabletash@gmail.com>",
   "contributors": [
-    "Rick Eyre <rick.eyre@outlook.com>"
+    "Rick Eyre <rick.eyre@outlook.com>",
+    "AJ ONeal <awesome@coolaj86.com>"
   ],
   "version": "0.5.2",
-  "description": "Polyfill for the Encoding Living Standard's API.",
+  "description": "A Lite Polyfill for the Encoding Living Standard's API.",
   "main": "index.js",
   "files": [
     "index.js",
-    "lib/encoding.js",
-    "lib/encoding-indexes.js"
+    "lib/encoding.js"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/inexorabletash/text-encoding.git"
+    "url": "https://github.com/coolaj86/text-encoder-lite.git"
   },
   "keywords": [
+    "utf8",
+    "utf-8",
+    "TypedArray",
+    "Uint8Array",
     "encoding",
     "decoding",
     "living standard"
   ],
   "bugs": {
-    "url": "https://github.com/inexorabletash/text-encoding/issues"
+    "url": "https://github.com/coolaj86/text-encoder-lite/issues"
   },
-  "homepage": "https://github.com/inexorabletash/text-encoding"
+  "homepage": "https://github.com/coolaj86/text-encoder-lite"
 }
