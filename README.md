@@ -4,6 +4,8 @@ TextEncoderLite
 Extracted from [Feross' Buffer](https://github.com/feross/buffer) as a lightweight Pollyfill
 for TextEncoder.
 
+See also [Unibabel](https://github.com/coolaj86/unibabel-js)
+
 ### Install ###
 
 There are a few ways you can get the `text-encoder-lite` library.
