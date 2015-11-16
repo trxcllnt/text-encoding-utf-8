@@ -1,20 +1,21 @@
 {
-  "name": "text-encoding",
-  "author": "Joshua Bell <inexorabletash@gmail.com>",
+  "name": "text-encoding-utf-8",
+  "author": "Erik Arvidsson <erik.arvidsson@gmail.com>",
   "contributors": [
-    "Rick Eyre <rick.eyre@outlook.com>"
+    "Rick Eyre <rick.eyre@outlook.com>",
+    "Joshua Bell <inexorabletash@gmail.com>"
   ],
-  "version": "0.5.3",
-  "description": "Polyfill for the Encoding Living Standard's API.",
-  "main": "index.js",
+  "version": "1.0.0",
+  "description": "UTF-8 only polyfill for the Encoding Living Standard's API.",
+  "main": "lib/encoding.cjs.js",
+  "jsnext:main": "src/encoding.js",
   "files": [
-    "index.js",
-    "lib/encoding.js",
-    "lib/encoding-indexes.js"
+    "src",
+    "dist"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/inexorabletash/text-encoding.git"
+    "url": "https://github.com/arv/text-encoding-utf-8.git"
   },
   "keywords": [
     "encoding",
@@ -22,7 +23,13 @@
     "living standard"
   ],
   "bugs": {
-    "url": "https://github.com/inexorabletash/text-encoding/issues"
+    "url": "https://github.com/arv/text-encoding-utf-8/issues"
   },
-  "homepage": "https://github.com/inexorabletash/text-encoding"
+  "homepage": "https://github.com/arv/text-encoding-utf-8",
+  "scripts": {
+    "prepublish": "rollup -f iife -o lib/encoding.js -- src/polyfill.js && rollup -f cjs -o lib/encoding.cjs.js -- src/encoding.js"
+  },
+  "devDependencies": {
+    "rollup": "^0.21.0"
+  }
 }
