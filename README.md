@@ -6,7 +6,7 @@ for TextEncoder.
 
 See also
   * [TextEncoder](https://developer.mozilla.org/en-US/docs/Web/API/TextEncoder/encode) / [TextDecoder](https://developer.mozilla.org/en-US/docs/Web/API/TextDecoder/decode)
-  * [DateView](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView)
+  * [DataView](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView)
   * [text-encoding](https://github.com/inexorabletash/text-encoding)
   * [Unibabel](https://github.com/coolaj86/unibabel-js)
   * [TextEncoderLite (based on text-encoding)](https://github.com/coolaj86/TextEncoderLite/tree/lite)
