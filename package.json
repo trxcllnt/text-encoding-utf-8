@@ -5,7 +5,7 @@
     "Rick Eyre <rick.eyre@outlook.com>",
     "Joshua Bell <inexorabletash@gmail.com>"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "UTF-8 only polyfill for the Encoding Living Standard's API.",
   "main": "lib/encoding.lib",
   "jsnext:main": "src/encoding.js",
